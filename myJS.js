@@ -11,7 +11,7 @@ function wrongDetected(){
 var bdyt = document.getElementsByTagName('BODY')[0];
 bdyt.innerHTML +=bs64.decode(wrongLicense);
 bdyt.setAttribute('oncontextmenu', 'return false');
-document.getElementById('license').innerHTML = window.location.hostname;
+// document.getElementById('license').innerHTML = window.location.hostname;
 }
 if (document.querySelectorAll('.license').length === 0){ // blog name if the license div is removed
 console.log("1")
